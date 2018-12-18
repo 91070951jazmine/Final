@@ -1,0 +1,14 @@
+  //import scanner
+import java.util.Scanner;
+
+// Quiz Class
+public class Main {
+
+    //main method
+    public static void main(String[] args) 
+    {
+      HorscopeKey new HorscopeKey() = (1,1,1,1);
+      HorscopeKey new HorscopeKey() = (2,2,2,2);
+      HorscopeKey new HorscopeKey() = (3,3,3,3);
+    } // end main method
+} // end Main Class
