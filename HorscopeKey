@@ -1,0 +1,95 @@
+import java.util.Scanner;
+
+public class HorscopeKey 
+{
+    // instance variables 
+
+      // represents the users input for each question (5 answers = 5 questions)
+      // int answer1, answer2, answer4, answer5;
+      int answer1, answer2, answer3, answer4, answer5;
+     
+      // variable for  horoscope
+     String userHoroscope ;
+     
+     public HoroscopeKey()
+     {
+       int answer1 = 0;
+       int answer2 = 0;
+       int answer3 = 0;
+       int answer4 = 0;
+       int answer5 = 0;
+       String userHoroscope = null;
+     }
+
+    public int horoscope(answer1, answer2, answer3, answer4) 
+    {
+    
+      this.answer1 = answer1;
+      this.answer2 = answer2;
+      this.answer3 = answer3;
+      this.answer4 = answer4;
+      this.userHoroscope = userHoroscope;
+    }
+    public String getAnswers ()
+    {
+     //scanner for input options (first question of quiz)
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Which word best describes you?: ");
+       //user chooses  word from these 4 options
+        System.out.println("1. Ambitious" + "\n" + "2. Caring " + "\n" + "3. Energetic" + "\n" + "4. Persistent");
+        answer1 = scan.nextInt();
+        
+      // question 2
+      
+      System.out.println("Pick a color: ");
+
+      // answer for question 2
+       System.out.println("1. Green" + "\n" + "2. Purple " + "\n" + "3. Red" + "\n" + "4. Yellow");
+        answer2 = scan.nextInt();
+
+
+      // question 3
+      System.out.println("What is your favorite holiday?: ");
+
+      // answer for question3
+      System.out.println("1. Christmas" + "\n" + "2. Thanksgiving " + "\n" + "3. Halloween" + "\n" + "4. Valentines Day" + "\n" + "5. New Years");
+        answer3 = scan.nextInt();
+
+    // question4
+     System.out.println("Favorite hobby: ");
+       
+       // answer for question4
+        System.out.println("1. Reading" + "\n" + "2. Playing Sports " + "\n" + "3. Eating" + "\n" + "4. Hanging out with friends " + "\n" + "5. Sleeping");
+        answer4 = scan.nextInt();
+    }
+        
+     
+     // compareTo method
+     public int compareAnswers(Object obj)
+     {
+        if (answer1 && answer2 == 1)
+        {
+          if (answer3 && answer4 == 1)
+          {
+          userHoroscope = "leo";
+          }
+        }
+        else if (answer1 && answer2 == 1)
+        {
+          if(answer3 && answer4 == 2)
+          {
+            userHoroscope = "capricorn";
+          }
+        }
+     }
+
+      // toString() method
+	public String toString()
+	{
+		String output = new String();
+		
+		output = "You are a" + userHorscope;
+		return output;
+	}//end toString
+
+}
