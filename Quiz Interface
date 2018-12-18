@@ -1,0 +1,6 @@
+// start of Quiz Interface
+public interface Quiz
+{
+  public int compareAnswers();
+  public String getAnswers();
+} //end of Quiz Interface
