@@ -1,0 +1,17 @@
+public class HoroscopeExplanation
+{
+public String HoroscopeExplanation{
+ while (userHoroscope = "leo")
+{
+  System.out.println("Leo Traits. Warm, action-oriented and driven by the desire to be loved and admired, the Leo have an air royalty about them. They love to be in the limelight, which is why many of them make a career in the performing arts. The personality of a Leo is made up of some positive as well as negative traits.");
+}
+while (userHoroscope = "capricorn")
+{
+  System.out.println("The Capricorn-born people are the most determined of the entire Zodiac. The most prominent qualities of the Goats, as they are called, are that they are ambitious, conservative, determined, practical and helpful.");
+}
+while (userHoroscope = "capricorn")
+{
+  System.out.println(" Aquarians are the perfect representatives for the Age of Aquarius. Those born under this horoscope sign have the social conscience needed to carry us into the new millennium.");
+}
+}
+}
